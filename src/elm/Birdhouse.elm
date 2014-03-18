@@ -135,3 +135,6 @@ preview { status } = container 500 60 middle
           <| color lightGray <| container 500 50 middle <| text
                <| typeface "helvetica, arial, sans-serif"
                <| toText status
+
+previewStream : Signal (StatusUpdate a) -> Signal Element
+previewStream tweets = flow up <~ foldp (::) [] (preview <~ tweets)

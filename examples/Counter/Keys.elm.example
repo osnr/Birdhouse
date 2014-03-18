@@ -1,0 +1,7 @@
+module Keys where
+
+port apiKey : String
+port apiKey = "API_KEY"
+
+port apiSecret : String
+port apiSecret = "API_SECRET"
