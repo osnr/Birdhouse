@@ -1,0 +1,2043 @@
+[
+    {
+        "county": "Douglas",
+        "littoralZone": "417",
+        "loc": {
+            "lat": 46.071819399999995,
+            "lon": -95.5851618
+        },
+        "maxDepth": "16",
+        "name": "Aaron",
+        "nearbyTown": "Millerville",
+        "size": "545",
+        "waterClarity": "8"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "269",
+        "loc": {
+            "lat": 46.759119049999995,
+            "lon": -95.8267709
+        },
+        "maxDepth": "7",
+        "name": "Abbey",
+        "nearbyTown": "Detroit Lakes",
+        "size": "269",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "N/A",
+        "loc": {
+            "lat": 46.741233199999996,
+            "lon": -95.75241754999999
+        },
+        "maxDepth": "N/A",
+        "name": "Acorn",
+        "nearbyTown": "Frazee",
+        "size": "154",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "424",
+        "loc": {
+            "lat": 46.829490799999995,
+            "lon": -94.3392648
+        },
+        "maxDepth": "60",
+        "name": "Ada",
+        "nearbyTown": "Backus",
+        "size": "974",
+        "waterClarity": "15"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "238",
+        "loc": {
+            "lat": 46.135873399999994,
+            "lon": -95.33524879999999
+        },
+        "maxDepth": "20",
+        "name": "Adley",
+        "nearbyTown": "Parkers Prairie",
+        "size": "239",
+        "waterClarity": "2.6"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "453",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "30",
+        "name": "Agnes",
+        "nearbyTown": "Ely",
+        "size": "984",
+        "waterClarity": "7"
+    },
+    {
+        "county": "Aitkin",
+        "littoralZone": "453",
+        "loc": {
+            "lat": 46.771542499999995,
+            "lon": -93.36039565
+        },
+        "maxDepth": "35",
+        "name": "Aitkin",
+        "nearbyTown": "Libby",
+        "size": "487",
+        "waterClarity": "6.3"
+    },
+    {
+        "county": "Freeborn",
+        "littoralZone": "2654",
+        "loc": {
+            "lat": 43.6531035,
+            "lon": -93.35868595
+        },
+        "maxDepth": "6",
+        "name": "Albert Lea",
+        "nearbyTown": "Albert Lea",
+        "size": "2654",
+        "waterClarity": "1"
+    },
+    {
+        "county": "Morrison",
+        "littoralZone": "842",
+        "loc": {
+            "lat": 46.089362550000004,
+            "lon": -94.49924444999999
+        },
+        "maxDepth": "64",
+        "name": "Alexander",
+        "nearbyTown": "Randall",
+        "size": "2708.72",
+        "waterClarity": "10.9"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "96",
+        "loc": {
+            "lat": 47.214978499999994,
+            "lon": -95.01406355
+        },
+        "maxDepth": "21",
+        "name": "Alice",
+        "nearbyTown": "Lake George",
+        "size": "121",
+        "waterClarity": "6.5"
+    },
+    {
+        "county": "Lake",
+        "littoralZone": "438",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "53",
+        "name": "Alice",
+        "nearbyTown": "Ely",
+        "size": "1566",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Martin",
+        "littoralZone": "108",
+        "loc": {
+            "lat": 43.60705935,
+            "lon": -94.47352555
+        },
+        "maxDepth": "19",
+        "name": "Amber",
+        "nearbyTown": "Fairmont",
+        "size": "182.09",
+        "waterClarity": "1.3"
+    },
+    {
+        "county": "Pope",
+        "littoralZone": "370",
+        "loc": {
+            "lat": 45.7136605,
+            "lon": -95.2707404
+        },
+        "maxDepth": "69",
+        "name": "Amelia",
+        "nearbyTown": "Villard",
+        "size": "910",
+        "waterClarity": "9.5"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "107",
+        "loc": {
+            "lat": 47.34084395,
+            "lon": -93.79523255
+        },
+        "maxDepth": "75",
+        "name": "Amen",
+        "nearbyTown": "Deer River",
+        "size": "198",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "71",
+        "loc": {
+            "lat": 47.7471491,
+            "lon": -93.65148844999999
+        },
+        "maxDepth": "110",
+        "name": "Anderson",
+        "nearbyTown": "Bigfork",
+        "size": "274",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Douglas",
+        "littoralZone": "331",
+        "loc": {
+            "lat": 45.81864485,
+            "lon": -95.41786705
+        },
+        "maxDepth": "83",
+        "name": "Andrew",
+        "nearbyTown": "Alexandria",
+        "size": "946",
+        "waterClarity": "11.5"
+    },
+    {
+        "county": "Kandiyohi",
+        "littoralZone": "293",
+        "loc": {
+            "lat": 45.29534395,
+            "lon": -94.9483236
+        },
+        "maxDepth": "26",
+        "name": "Andrew",
+        "nearbyTown": "New London",
+        "size": "814",
+        "waterClarity": "13.7"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "423",
+        "loc": {
+            "lat": 47.377099949999995,
+            "lon": -94.5940045
+        },
+        "maxDepth": "60",
+        "name": "Andrusia",
+        "nearbyTown": "Cass Lake",
+        "size": "1510",
+        "waterClarity": "10"
+    },
+    {
+        "county": "Carver",
+        "littoralZone": "45",
+        "loc": {
+            "lat": 44.84357795,
+            "lon": -93.57022605
+        },
+        "maxDepth": "45",
+        "name": "Ann",
+        "nearbyTown": "Chanhassen",
+        "size": "110.04",
+        "waterClarity": "5.5"
+    },
+    {
+        "county": "Kanabec",
+        "littoralZone": "600",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "17",
+        "name": "Ann",
+        "nearbyTown": "Ogilve",
+        "size": "653",
+        "waterClarity": "3.2"
+    },
+    {
+        "county": "Pope",
+        "littoralZone": "356",
+        "loc": {
+            "lat": 45.6480729,
+            "lon": -95.36134845
+        },
+        "maxDepth": "14",
+        "name": "Ann",
+        "nearbyTown": "Glenwood",
+        "size": "356",
+        "waterClarity": "6.4"
+    },
+    {
+        "county": "Sherburne",
+        "littoralZone": "138",
+        "loc": {
+            "lat": 45.43965,
+            "lon": -93.5981654
+        },
+        "maxDepth": "26",
+        "name": "Ann",
+        "nearbyTown": "Zimmerman",
+        "size": "184",
+        "waterClarity": "11.5"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "102",
+        "loc": {
+            "lat": 46.76013244999999,
+            "lon": -93.966498
+        },
+        "maxDepth": "19",
+        "name": "Anna",
+        "nearbyTown": "Emily",
+        "size": "122",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "373",
+        "loc": {
+            "lat": 46.3474821,
+            "lon": -95.85978374999999
+        },
+        "maxDepth": "55",
+        "name": "Anna",
+        "nearbyTown": "Underwood",
+        "size": "538",
+        "waterClarity": "5.6"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "150",
+        "loc": {
+            "lat": 46.2914975,
+            "lon": -95.7172765
+        },
+        "maxDepth": "51",
+        "name": "Annie Battle",
+        "nearbyTown": "Battle Lake",
+        "size": "334",
+        "waterClarity": "14.5"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "76.5",
+        "loc": {
+            "lat": 47.7471491,
+            "lon": -93.65148844999999
+        },
+        "maxDepth": "90",
+        "name": "Antler",
+        "nearbyTown": "Bigfork",
+        "size": "306",
+        "waterClarity": "17"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "102",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "34",
+        "name": "Armstrong",
+        "nearbyTown": "Ely",
+        "size": "389",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Big Stone",
+        "littoralZone": "1964",
+        "loc": {
+            "lat": 45.2314235,
+            "lon": -96.16265695
+        },
+        "maxDepth": "15.5",
+        "name": "Artichoke",
+        "nearbyTown": "Correll",
+        "size": "1964",
+        "waterClarity": "3.3"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "195",
+        "loc": {
+            "lat": 48.05815435,
+            "lon": -92.82561439999999
+        },
+        "maxDepth": "25",
+        "name": "Ash",
+        "nearbyTown": "Orr",
+        "size": "669",
+        "waterClarity": "8"
+    },
+    {
+        "county": "Cottonwood",
+        "littoralZone": "470",
+        "loc": {
+            "lat": 44.03963689999999,
+            "lon": -95.31934849999999
+        },
+        "maxDepth": "4",
+        "name": "Augusta",
+        "nearbyTown": "Storden",
+        "size": "470",
+        "waterClarity": "1"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "248",
+        "loc": {
+            "lat": 46.9603295,
+            "lon": -94.35342795
+        },
+        "maxDepth": "69",
+        "name": "Baby",
+        "nearbyTown": "Hackensack",
+        "size": "705",
+        "waterClarity": "10.2"
+    },
+    {
+        "county": "Polk",
+        "littoralZone": "342",
+        "loc": {
+            "lat": 47.66566345,
+            "lon": -96.01468549999998
+        },
+        "maxDepth": "19",
+        "name": "Badger",
+        "nearbyTown": "Erskine",
+        "size": "353",
+        "waterClarity": "19"
+    },
+    {
+        "county": "Clearwater",
+        "littoralZone": "50",
+        "loc": {
+            "lat": 47.7754049,
+            "lon": -95.31032275
+        },
+        "maxDepth": "39",
+        "name": "Bagley",
+        "nearbyTown": "Leonard",
+        "size": "94",
+        "waterClarity": "n/a"
+    },
+    {
+        "county": "Ramsey",
+        "littoralZone": "751",
+        "loc": {
+            "lat": 45.1180248,
+            "lon": -93.01401849999999
+        },
+        "maxDepth": "36",
+        "name": "Bald Eagle",
+        "nearbyTown": "White Bear Lake",
+        "size": "1268",
+        "waterClarity": "2.6"
+    },
+    {
+        "county": "Cook",
+        "littoralZone": "159",
+        "loc": {
+            "lat": 47.75978839999999,
+            "lon": -90.33991995
+        },
+        "maxDepth": "25",
+        "name": "Ball Club",
+        "nearbyTown": "Grand Marais",
+        "size": "196",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "984",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "85",
+        "name": "Ball Club",
+        "nearbyTown": "Ball Club",
+        "size": "3936",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Blue Earth",
+        "littoralZone": "301",
+        "loc": {
+            "lat": 44.18729705,
+            "lon": -93.7998185
+        },
+        "maxDepth": "58",
+        "name": "Ballantyne",
+        "nearbyTown": "Madison Lake",
+        "size": "350",
+        "waterClarity": "3"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "282",
+        "loc": {
+            "lat": 47.52097499999999,
+            "lon": -95.13026955
+        },
+        "maxDepth": "33",
+        "name": "Balm",
+        "nearbyTown": "Solway",
+        "size": "512",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "296",
+        "loc": {
+            "lat": 47.329959450000004,
+            "lon": -93.38391195
+        },
+        "maxDepth": "37",
+        "name": "Balsam",
+        "nearbyTown": "Taconite",
+        "size": "710",
+        "waterClarity": "11"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "380",
+        "loc": {
+            "lat": 48.03773785,
+            "lon": -92.62655805
+        },
+        "maxDepth": "10",
+        "name": "Ban",
+        "nearbyTown": "Orr",
+        "size": "380",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Koochiching",
+        "littoralZone": "292",
+        "loc": {
+            "lat": 47.877880250000004,
+            "lon": -94.2668037
+        },
+        "maxDepth": "16",
+        "name": "Bartlett",
+        "nearbyTown": "Northome",
+        "size": "292",
+        "waterClarity": "3.8"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "315",
+        "loc": {
+            "lat": 47.5326435,
+            "lon": -94.78519635
+        },
+        "maxDepth": "17",
+        "name": "Bass (Big)",
+        "nearbyTown": "Bemidji",
+        "size": "380",
+        "waterClarity": "n/a"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "288",
+        "loc": {
+            "lat": 47.5146801,
+            "lon": -94.77123184999999
+        },
+        "maxDepth": "22",
+        "name": "Bass (Little)",
+        "nearbyTown": "Bemidji",
+        "size": "343",
+        "waterClarity": "15"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "185",
+        "loc": {
+            "lat": 46.4655939,
+            "lon": -94.17552404999999
+        },
+        "maxDepth": "24",
+        "name": "Bass",
+        "nearbyTown": "Merrifield",
+        "size": "309",
+        "waterClarity": "8"
+    },
+    {
+        "county": "Faribault",
+        "littoralZone": "171",
+        "loc": {
+            "lat": 43.7677294,
+            "lon": -94.017964
+        },
+        "maxDepth": "20",
+        "name": "Bass",
+        "nearbyTown": "Delavan",
+        "size": "203",
+        "waterClarity": "4.5"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "1254",
+        "loc": {
+            "lat": 47.23877405,
+            "lon": -93.63983089999999
+        },
+        "maxDepth": "76",
+        "name": "Bass",
+        "nearbyTown": "Cohasset",
+        "size": "2407",
+        "waterClarity": "11.4"
+    },
+    {
+        "county": "Mahnomen",
+        "littoralZone": "294",
+        "loc": {
+            "lat": 47.1828886,
+            "lon": -95.941019
+        },
+        "maxDepth": "26",
+        "name": "Bass",
+        "nearbyTown": "Waubun",
+        "size": "689",
+        "waterClarity": "15"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "138",
+        "loc": {
+            "lat": 46.28859265,
+            "lon": -95.8927817
+        },
+        "maxDepth": "36",
+        "name": "Bass",
+        "nearbyTown": "Underwood",
+        "size": "292",
+        "waterClarity": "12.1"
+    },
+    {
+        "county": "Pine",
+        "littoralZone": "148",
+        "loc": {
+            "lat": 46.2274158,
+            "lon": -92.96878394999999
+        },
+        "maxDepth": "24",
+        "name": "Bass",
+        "nearbyTown": "Finlayson",
+        "size": "189",
+        "waterClarity": "7"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "231",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "17",
+        "name": "Bass",
+        "nearbyTown": "Soudan",
+        "size": "238",
+        "waterClarity": "7"
+    },
+    {
+        "county": "Lake",
+        "littoralZone": "7034",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "111",
+        "name": "Basswood",
+        "nearbyTown": "Ely",
+        "size": "22.722",
+        "waterClarity": "10.75"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "199",
+        "loc": {
+            "lat": 47.8401545,
+            "lon": -93.63872094999999
+        },
+        "maxDepth": "15",
+        "name": "Battle",
+        "nearbyTown": "Effie",
+        "size": "199",
+        "waterClarity": "11.5"
+    },
+    {
+        "county": "Carver",
+        "littoralZone": "65",
+        "loc": {
+            "lat": 44.83661375,
+            "lon": -93.64092675
+        },
+        "maxDepth": "66",
+        "name": "Bavaria",
+        "nearbyTown": "Victoria",
+        "size": "162",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "1005",
+        "loc": {
+            "lat": 47.26796625,
+            "lon": -93.8284405
+        },
+        "maxDepth": "74",
+        "name": "Bay",
+        "nearbyTown": "Deerwood",
+        "size": "2392",
+        "waterClarity": "14"
+    },
+    {
+        "county": "Carlton",
+        "littoralZone": "70",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "31",
+        "name": "Bear",
+        "nearbyTown": "Barn Lake Area",
+        "size": "91",
+        "waterClarity": "8.2"
+    },
+    {
+        "county": "Freeborn",
+        "littoralZone": "1536",
+        "loc": {
+            "lat": 43.56074745,
+            "lon": -93.4234245
+        },
+        "maxDepth": "6",
+        "name": "Bear",
+        "nearbyTown": "Twin Lakes",
+        "size": "1536",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "268",
+        "loc": {
+            "lat": 47.384255249999995,
+            "lon": -93.14185599999999
+        },
+        "maxDepth": "16",
+        "name": "Bear",
+        "nearbyTown": "Nashwauk",
+        "size": "339",
+        "waterClarity": "3.5"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "120",
+        "loc": {
+            "lat": 46.6037635,
+            "lon": -95.57998945
+        },
+        "maxDepth": "32",
+        "name": "Bear",
+        "nearbyTown": "Perham",
+        "size": "181",
+        "waterClarity": "7.6"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "879",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "62",
+        "name": "Bear Island",
+        "nearbyTown": "Babbit",
+        "size": "2351",
+        "waterClarity": "10"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "371",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "46",
+        "name": "Bearhead",
+        "nearbyTown": "Tower",
+        "size": "674",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Todd",
+        "littoralZone": "137",
+        "loc": {
+            "lat": 45.97609225000001,
+            "lon": -94.86021290000001
+        },
+        "maxDepth": "27",
+        "name": "Beauty",
+        "nearbyTown": "Long Prairie",
+        "size": "237",
+        "waterClarity": "8"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "96",
+        "loc": {
+            "lat": 46.518552299999996,
+            "lon": -95.93747685
+        },
+        "maxDepth": "61",
+        "name": "Beers",
+        "nearbyTown": "Pelican Rapids",
+        "size": "195",
+        "waterClarity": "14.5"
+    },
+    {
+        "county": "Meeker",
+        "littoralZone": "383",
+        "loc": {
+            "lat": 44.88329295,
+            "lon": -94.37487845
+        },
+        "maxDepth": "25",
+        "name": "Belle",
+        "nearbyTown": "Hutchinson",
+        "size": "826",
+        "waterClarity": "2.8"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "771",
+        "loc": {
+            "lat": 46.9463829,
+            "lon": -94.88820365
+        },
+        "maxDepth": "56",
+        "name": "Belle Taine",
+        "nearbyTown": "Nevis",
+        "size": "1185",
+        "waterClarity": "14"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "251",
+        "loc": {
+            "lat": 47.66705619999999,
+            "lon": -93.7207708
+        },
+        "maxDepth": "58",
+        "name": "Bello",
+        "nearbyTown": "Marcell",
+        "size": "493",
+        "waterClarity": "n/a"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "108",
+        "loc": {
+            "lat": 46.2065572,
+            "lon": -95.6355188
+        },
+        "maxDepth": "34",
+        "name": "Belmont",
+        "nearbyTown": "Clitherall",
+        "size": "192",
+        "waterClarity": "11.8"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "300",
+        "loc": {
+            "lat": 47.58363519999999,
+            "lon": -94.8056779
+        },
+        "maxDepth": "50",
+        "name": "Beltrami",
+        "nearbyTown": "Bemidji",
+        "size": "543",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "1862",
+        "loc": {
+            "lat": 47.5033069,
+            "lon": -94.84764145
+        },
+        "maxDepth": "76",
+        "name": "Bemidji",
+        "nearbyTown": "Bemidji",
+        "size": "6420",
+        "waterClarity": "6"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "172",
+        "loc": {
+            "lat": 47.13893650000001,
+            "lon": -94.69273575
+        },
+        "maxDepth": "91",
+        "name": "Benedict",
+        "nearbyTown": "Benedict",
+        "size": "440",
+        "waterClarity": "14"
+    },
+    {
+        "county": "Lincoln",
+        "littoralZone": "2857",
+        "loc": {
+            "lat": 44.287684350000006,
+            "lon": -96.24111564999998
+        },
+        "maxDepth": "9",
+        "name": "Benton",
+        "nearbyTown": "Lake Benton",
+        "size": "2857",
+        "waterClarity": "1.6"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "151",
+        "loc": {
+            "lat": 47.22312530000001,
+            "lon": -92.3870331
+        },
+        "maxDepth": "10",
+        "name": "Berg",
+        "nearbyTown": "Melrude",
+        "size": "151",
+        "waterClarity": "4"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "142",
+        "loc": {
+            "lat": 46.6640733,
+            "lon": -94.25326935
+        },
+        "maxDepth": "64",
+        "name": "Bertha",
+        "nearbyTown": "Jenkins",
+        "size": "334",
+        "waterClarity": "10.5"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "120",
+        "loc": {
+            "lat": 46.821738999999994,
+            "lon": -96.13833965
+        },
+        "maxDepth": "27",
+        "name": "Beseau",
+        "nearbyTown": "Lake Park",
+        "size": "226",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "2106",
+        "loc": {
+            "lat": 47.5326435,
+            "lon": -94.78519635
+        },
+        "maxDepth": "35",
+        "name": "Big",
+        "nearbyTown": "Bemidji",
+        "size": "3533",
+        "waterClarity": "13"
+    },
+    {
+        "county": "Carlton",
+        "littoralZone": "440",
+        "loc": {
+            "lat": 46.70007365,
+            "lon": -92.6299828
+        },
+        "maxDepth": "25",
+        "name": "Big",
+        "nearbyTown": "Sawyer",
+        "size": "507",
+        "waterClarity": "13.5"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "1514",
+        "loc": {
+            "lat": 47.77124135,
+            "lon": -94.16494804999999
+        },
+        "maxDepth": "22",
+        "name": "Big",
+        "nearbyTown": "Ely",
+        "size": "1789",
+        "waterClarity": "7"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "379",
+        "loc": {
+            "lat": 47.559089900000004,
+            "lon": -92.11602884999999
+        },
+        "maxDepth": "30",
+        "name": "Big",
+        "nearbyTown": "Hoyt Lakes",
+        "size": "805",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Sherburne",
+        "littoralZone": "110",
+        "loc": {
+            "lat": 45.339505,
+            "lon": -93.73602595
+        },
+        "maxDepth": "48",
+        "name": "Big",
+        "nearbyTown": "Big Lake",
+        "size": "251",
+        "waterClarity": "9.5"
+    },
+    {
+        "county": "Stearns",
+        "littoralZone": "227",
+        "loc": {
+            "lat": 45.43369455,
+            "lon": -94.57129069999999
+        },
+        "maxDepth": "42",
+        "name": "Big",
+        "nearbyTown": "Richmond",
+        "size": "403",
+        "waterClarity": "4.8"
+    },
+    {
+        "county": "Todd",
+        "littoralZone": "166",
+        "loc": {
+            "lat": 46.14207565,
+            "lon": -94.6801259
+        },
+        "maxDepth": "21",
+        "name": "Big",
+        "nearbyTown": "Cushing",
+        "size": "277",
+        "waterClarity": "7.2"
+    },
+    {
+        "county": "Washington",
+        "littoralZone": "131",
+        "loc": {
+            "lat": 45.1359476,
+            "lon": -92.80888669999999
+        },
+        "maxDepth": "66",
+        "name": "Big Carnelian",
+        "nearbyTown": "Stillwater",
+        "size": "464",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "61",
+        "loc": {
+            "lat": 47.32654385,
+            "lon": -93.34658255
+        },
+        "maxDepth": "31",
+        "name": "Big Diamond",
+        "nearbyTown": "Marble",
+        "size": "122",
+        "waterClarity": "17"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "152",
+        "loc": {
+            "lat": 47.609877,
+            "lon": -93.60976655
+        },
+        "maxDepth": "20",
+        "name": "Big Dick",
+        "nearbyTown": "Marcell",
+        "size": "249",
+        "waterClarity": "10"
+    },
+    {
+        "county": "Stearns",
+        "littoralZone": "201",
+        "loc": {
+            "lat": 45.5182168,
+            "lon": -94.46756289999999
+        },
+        "maxDepth": "70",
+        "name": "Big Fish",
+        "nearbyTown": "Cold Spring",
+        "size": "558",
+        "waterClarity": "14.8"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "202",
+        "loc": {
+            "lat": 47.5700981,
+            "lon": -93.5955185
+        },
+        "maxDepth": "42",
+        "name": "Big Island",
+        "nearbyTown": "Marcell",
+        "size": "238",
+        "waterClarity": "14.5"
+    },
+    {
+        "county": "Kandiyohi",
+        "littoralZone": "2692",
+        "loc": {
+            "lat": 44.9958604,
+            "lon": -94.94369764999999
+        },
+        "maxDepth": "15",
+        "name": "Big Kandiyohi",
+        "nearbyTown": "Lake Lillian",
+        "size": "2692",
+        "waterClarity": "2.8"
+    },
+    {
+        "county": "Washington",
+        "littoralZone": "1152",
+        "loc": {
+            "lat": 45.2248616,
+            "lon": -92.8533508
+        },
+        "maxDepth": "60",
+        "name": "Big Marine",
+        "nearbyTown": "Forest Lake",
+        "size": "1756",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "295",
+        "loc": {
+            "lat": 46.553913449999996,
+            "lon": -95.71750985
+        },
+        "maxDepth": "33",
+        "name": "Big McDonald 2",
+        "nearbyTown": "Dent",
+        "size": "489",
+        "waterClarity": "13.6"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "1012",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "23",
+        "name": "Big Moose",
+        "nearbyTown": "Ely",
+        "size": "1032",
+        "waterClarity": "n/a"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "84",
+        "loc": {
+            "lat": 47.5697126,
+            "lon": -93.61546684999999
+        },
+        "maxDepth": "65",
+        "name": "Big Ole",
+        "nearbyTown": "Marcell",
+        "size": "179",
+        "waterClarity": "15.5"
+    },
+    {
+        "county": "Pine",
+        "littoralZone": "135",
+        "loc": {
+            "lat": 46.2083107,
+            "lon": -93.0412445
+        },
+        "maxDepth": "25",
+        "name": "Big Pine",
+        "nearbyTown": "Finlayson",
+        "size": "387",
+        "waterClarity": "9.5"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "901",
+        "loc": {
+            "lat": 46.8508354,
+            "lon": -94.4373145
+        },
+        "maxDepth": "23",
+        "name": "Big Portage",
+        "nearbyTown": "Backus",
+        "size": "918",
+        "waterClarity": "7.2"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "242",
+        "loc": {
+            "lat": 47.26796625,
+            "lon": -93.8284405
+        },
+        "maxDepth": "337",
+        "name": "Big Rabbit (East)",
+        "nearbyTown": "Cuyuna",
+        "size": "638",
+        "waterClarity": "16"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "165",
+        "loc": {
+            "lat": 47.26796625,
+            "lon": -93.8284405
+        },
+        "maxDepth": "50",
+        "name": "Big Rabbit (West)",
+        "nearbyTown": "Cuyuna",
+        "size": "531",
+        "waterClarity": "13"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "2832",
+        "loc": {
+            "lat": 46.99325575,
+            "lon": -93.93371334999999
+        },
+        "maxDepth": "5",
+        "name": "Big Rice",
+        "nearbyTown": "Remer",
+        "size": "2832",
+        "waterClarity": "5"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "420",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "5",
+        "name": "Big Rice",
+        "nearbyTown": "Ely",
+        "size": "420",
+        "waterClarity": "2"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "465",
+        "loc": {
+            "lat": 47.000228050000004,
+            "lon": -94.9681421
+        },
+        "maxDepth": "135",
+        "name": "Big Sand",
+        "nearbyTown": "Park Rapids",
+        "size": "1635",
+        "waterClarity": "25"
+    },
+    {
+        "county": "Aitkin",
+        "littoralZone": "3067",
+        "loc": {
+            "lat": 46.60863205,
+            "lon": -93.30667745
+        },
+        "maxDepth": "84",
+        "name": "Big Sandy",
+        "nearbyTown": "McGregor",
+        "size": "6526",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Stearns",
+        "littoralZone": "150",
+        "loc": {
+            "lat": 45.61292295,
+            "lon": -94.4682155
+        },
+        "maxDepth": "38",
+        "name": "Big Spunk",
+        "nearbyTown": "Avon",
+        "size": "440",
+        "waterClarity": "10"
+    },
+    {
+        "county": "Big Stone",
+        "littoralZone": "12484",
+        "loc": {
+            "lat": 45.429084950000004,
+            "lon": -96.627682
+        },
+        "maxDepth": "16",
+        "name": "Big Stone",
+        "nearbyTown": "Ortonville",
+        "size": "12610",
+        "waterClarity": "14.75"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "223",
+        "loc": {
+            "lat": 46.87661015,
+            "lon": -94.92049639999999
+        },
+        "maxDepth": "24",
+        "name": "Big Stoney",
+        "nearbyTown": "Park Rapids",
+        "size": "319",
+        "waterClarity": "4"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "138",
+        "loc": {
+            "lat": 47.38486219999999,
+            "lon": -93.26135729999999
+        },
+        "maxDepth": "36",
+        "name": "Big Sucker",
+        "nearbyTown": "Nashwauk",
+        "size": "230",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Meeker",
+        "littoralZone": "338",
+        "loc": {
+            "lat": 45.143141799999995,
+            "lon": -94.27840405
+        },
+        "maxDepth": "32",
+        "name": "Big Swan",
+        "nearbyTown": "Kingston",
+        "size": "628",
+        "waterClarity": "4.1"
+    },
+    {
+        "county": "Todd",
+        "littoralZone": "404",
+        "loc": {
+            "lat": 45.865859,
+            "lon": -94.68744745000001
+        },
+        "maxDepth": "45",
+        "name": "Big Swan",
+        "nearbyTown": "Burtrum",
+        "size": "918",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "56",
+        "loc": {
+            "lat": 47.6305409,
+            "lon": -93.78876075
+        },
+        "maxDepth": "95",
+        "name": "Big Too Much",
+        "nearbyTown": "Talmoon",
+        "size": "232",
+        "waterClarity": "13"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "369",
+        "loc": {
+            "lat": 46.7158345,
+            "lon": -94.15636495
+        },
+        "maxDepth": "128",
+        "name": "Big Trout",
+        "nearbyTown": "Cross Lake",
+        "size": "1342",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Stearns",
+        "littoralZone": "46",
+        "loc": {
+            "lat": 45.551563200000004,
+            "lon": -94.45037385
+        },
+        "maxDepth": "123",
+        "name": "Big Watab",
+        "nearbyTown": "Avon",
+        "size": "227",
+        "waterClarity": "10"
+    },
+    {
+        "county": "Cottonwood",
+        "littoralZone": "259",
+        "loc": {
+            "lat": 43.9211097,
+            "lon": -95.0470249
+        },
+        "maxDepth": "10",
+        "name": "Bingham",
+        "nearbyTown": "Bingham Lake",
+        "size": "259",
+        "waterClarity": "6"
+    },
+    {
+        "county": "Aitkin",
+        "littoralZone": "421",
+        "loc": {
+            "lat": 46.3693112,
+            "lon": -93.8080654
+        },
+        "maxDepth": "8",
+        "name": "Birch",
+        "nearbyTown": "Aitkin",
+        "size": "421",
+        "waterClarity": "3"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "N/A",
+        "loc": {
+            "lat": 47.065171449999994,
+            "lon": -95.8108718
+        },
+        "maxDepth": "25",
+        "name": "Birch",
+        "nearbyTown": "Callaway",
+        "size": "233",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "755",
+        "loc": {
+            "lat": 46.92503635,
+            "lon": -94.5148739
+        },
+        "maxDepth": "45",
+        "name": "Birch",
+        "nearbyTown": "Hackensack",
+        "size": "1284",
+        "waterClarity": "7.7"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "51",
+        "loc": {
+            "lat": 47.050628599999996,
+            "lon": -93.87304309999999
+        },
+        "maxDepth": "30",
+        "name": "Birch",
+        "nearbyTown": "Remer",
+        "size": "255",
+        "waterClarity": "10"
+    },
+    {
+        "county": "Lake",
+        "littoralZone": "342",
+        "loc": {
+            "lat": 47.7798929,
+            "lon": -91.85340015
+        },
+        "maxDepth": "34",
+        "name": "Birch",
+        "nearbyTown": "Ely",
+        "size": "711",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Sherburne",
+        "littoralZone": "117",
+        "loc": {
+            "lat": 45.37677844999999,
+            "lon": -93.66900235
+        },
+        "maxDepth": "18",
+        "name": "Birch",
+        "nearbyTown": "Big Lake",
+        "size": "151",
+        "waterClarity": "2.5"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "1060",
+        "loc": {
+            "lat": 47.74014914999999,
+            "lon": -91.86314074999999
+        },
+        "maxDepth": "25",
+        "name": "Birch",
+        "nearbyTown": "Babbit",
+        "size": "5628",
+        "waterClarity": "4"
+    },
+    {
+        "county": "Todd",
+        "littoralZone": "642",
+        "loc": {
+            "lat": 45.8248665,
+            "lon": -94.749616
+        },
+        "maxDepth": "81",
+        "name": "Birch (Big)",
+        "nearbyTown": "Grey Eagle",
+        "size": "2108",
+        "waterClarity": "4.2"
+    },
+    {
+        "county": "Todd",
+        "littoralZone": "277",
+        "loc": {
+            "lat": 45.8248665,
+            "lon": -94.749616
+        },
+        "maxDepth": "89",
+        "name": "Birch (Little)",
+        "nearbyTown": "Grey Eagle",
+        "size": "838",
+        "waterClarity": "4.5"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "125",
+        "loc": {
+            "lat": 47.589785500000005,
+            "lon": -94.75317405
+        },
+        "maxDepth": "42",
+        "name": "Black",
+        "nearbyTown": "Turtle River",
+        "size": "246",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "1374",
+        "loc": {
+            "lat": 47.73193535,
+            "lon": -94.6175776
+        },
+        "maxDepth": "28",
+        "name": "Blackduck",
+        "nearbyTown": "Blackduck",
+        "size": "2596",
+        "waterClarity": "3"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "498",
+        "loc": {
+            "lat": 48.05815435,
+            "lon": -92.82561439999999
+        },
+        "maxDepth": "30",
+        "name": "Blackduck",
+        "nearbyTown": "Orr",
+        "size": "1185",
+        "waterClarity": "10.5"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "336",
+        "loc": {
+            "lat": 46.89763245,
+            "lon": -94.31777149999999
+        },
+        "maxDepth": "67",
+        "name": "Blackwater",
+        "nearbyTown": "Longville",
+        "size": "722",
+        "waterClarity": "13.7"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "633",
+        "loc": {
+            "lat": 47.257323099999994,
+            "lon": -93.6539408
+        },
+        "maxDepth": "72",
+        "name": "Blackwater",
+        "nearbyTown": "Cohasset",
+        "size": "674",
+        "waterClarity": "9.4"
+    },
+    {
+        "county": "Douglas",
+        "littoralZone": "199",
+        "loc": {
+            "lat": 45.825835999999995,
+            "lon": -95.5573205
+        },
+        "maxDepth": "42",
+        "name": "Blackwell",
+        "nearbyTown": "Holmes City",
+        "size": "307",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "1002",
+        "loc": {
+            "lat": 46.41722694999999,
+            "lon": -95.57401390000001
+        },
+        "maxDepth": "64",
+        "name": "Blanche",
+        "nearbyTown": "Ottertail",
+        "size": "1268",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Aitkin",
+        "littoralZone": "359",
+        "loc": {
+            "lat": 46.6502471,
+            "lon": -93.74641555
+        },
+        "maxDepth": "17",
+        "name": "Blind",
+        "nearbyTown": "Aitkin",
+        "size": "370",
+        "waterClarity": "6"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "132",
+        "loc": {
+            "lat": 46.1245275,
+            "lon": -95.51102595
+        },
+        "maxDepth": "23",
+        "name": "Block",
+        "nearbyTown": "Urbank",
+        "size": "263",
+        "waterClarity": "5.8"
+    },
+    {
+        "county": "Murray",
+        "littoralZone": "248",
+        "loc": {
+            "lat": 44.07088145,
+            "lon": -95.6677991
+        },
+        "maxDepth": "9",
+        "name": "Bloody",
+        "nearbyTown": "Currie",
+        "size": "248",
+        "waterClarity": "1"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "81",
+        "loc": {
+            "lat": 47.018006850000006,
+            "lon": -95.00401629999999
+        },
+        "maxDepth": "84",
+        "name": "Blue",
+        "nearbyTown": "Park Rapids",
+        "size": "324",
+        "waterClarity": "27"
+    },
+    {
+        "county": "Isanti",
+        "littoralZone": "134",
+        "loc": {
+            "lat": 45.4778395,
+            "lon": -93.4996596
+        },
+        "maxDepth": "31",
+        "name": "Blue",
+        "nearbyTown": "Princeton",
+        "size": "309",
+        "waterClarity": "5"
+    },
+    {
+        "county": "Wadena",
+        "littoralZone": "522",
+        "loc": {
+            "lat": 46.79501205,
+            "lon": -95.03774345
+        },
+        "maxDepth": "15",
+        "name": "Blueberry",
+        "nearbyTown": "Menahga",
+        "size": "522",
+        "waterClarity": "4.5"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "72",
+        "loc": {
+            "lat": 47.42030580000001,
+            "lon": -93.55383334999999
+        },
+        "maxDepth": "120",
+        "name": "Bluewater",
+        "nearbyTown": "Grand Rapids",
+        "size": "364",
+        "waterClarity": "14.5"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "93",
+        "loc": {
+            "lat": 46.514953750000004,
+            "lon": -95.59174605
+        },
+        "maxDepth": "26",
+        "name": "Boedigheimer",
+        "nearbyTown": "Richville",
+        "size": "176",
+        "waterClarity": "13.5"
+    },
+    {
+        "county": "Washington",
+        "littoralZone": "124",
+        "loc": {
+            "lat": 47.7636555,
+            "lon": -91.04096285
+        },
+        "maxDepth": "30",
+        "name": "Bone",
+        "nearbyTown": "Forest Lake",
+        "size": "210",
+        "waterClarity": "9.5"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "81",
+        "loc": {
+            "lat": 47.072900950000005,
+            "lon": -95.26716454999999
+        },
+        "maxDepth": "109",
+        "name": "Boot",
+        "nearbyTown": "Two Inlets",
+        "size": "348",
+        "waterClarity": "16"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "203",
+        "loc": {
+            "lat": 47.454400400000004,
+            "lon": -94.97950664999999
+        },
+        "maxDepth": "30",
+        "name": "Boot",
+        "nearbyTown": "Bemidji",
+        "size": "267",
+        "waterClarity": "8.5"
+    },
+    {
+        "county": "Big Stone",
+        "littoralZone": "36",
+        "loc": {
+            "lat": 45.5664065,
+            "lon": -96.43860049999999
+        },
+        "maxDepth": "18.5",
+        "name": "Botkers",
+        "nearbyTown": "Graceville",
+        "size": "44.4",
+        "waterClarity": "5.3"
+    },
+    {
+        "county": "Crow Wing",
+        "littoralZone": "304",
+        "loc": {
+            "lat": 46.30172164999999,
+            "lon": -93.8623848
+        },
+        "maxDepth": "84",
+        "name": "Borden",
+        "nearbyTown": "Garrison",
+        "size": "957",
+        "waterClarity": "9"
+    },
+    {
+        "county": "Cook",
+        "littoralZone": "133",
+        "loc": {
+            "lat": 47.75978839999999,
+            "lon": -90.33991995
+        },
+        "maxDepth": "17",
+        "name": "Bouder",
+        "nearbyTown": "Grand Marais",
+        "size": "136",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Hubbard",
+        "littoralZone": "180",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "28",
+        "name": "Boulder",
+        "nearbyTown": "Dorset",
+        "size": "360",
+        "waterClarity": "9.5"
+    },
+    {
+        "county": "Cass",
+        "littoralZone": "2007",
+        "loc": {
+            "lat": 47.107425899999996,
+            "lon": -94.1455208
+        },
+        "maxDepth": "45",
+        "name": "Boy",
+        "nearbyTown": "Boy River",
+        "size": "3186",
+        "waterClarity": "6.5"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "204",
+        "loc": {
+            "lat": 46.87071655,
+            "lon": -96.04917209999999
+        },
+        "maxDepth": "26",
+        "name": "Boyer",
+        "nearbyTown": "Lake Park",
+        "size": "310",
+        "waterClarity": "5.5"
+    },
+    {
+        "county": "Sherburne",
+        "littoralZone": "170",
+        "loc": {
+            "lat": 45.499052,
+            "lon": -93.93976685
+        },
+        "maxDepth": "25",
+        "name": "Briggs",
+        "nearbyTown": "Clear Lake",
+        "size": "377",
+        "waterClarity": "3"
+    },
+    {
+        "county": "Douglas",
+        "littoralZone": "150",
+        "loc": {
+            "lat": 45.905234300000004,
+            "lon": -95.44219869999999
+        },
+        "maxDepth": "44",
+        "name": "Brophy",
+        "nearbyTown": "Alexandria",
+        "size": "289",
+        "waterClarity": "11.5"
+    },
+    {
+        "county": "Lake",
+        "littoralZone": "170",
+        "loc": {
+            "lat": 47.904601449999994,
+            "lon": -91.85543335
+        },
+        "maxDepth": "19",
+        "name": "Browns",
+        "nearbyTown": "Ely",
+        "size": "205",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Cook",
+        "littoralZone": "1431",
+        "loc": {
+            "lat": 47.893151599999996,
+            "lon": -90.64878149999998
+        },
+        "maxDepth": "78",
+        "name": "Brule",
+        "nearbyTown": "Grand Marais",
+        "size": "4617",
+        "waterClarity": "15"
+    },
+    {
+        "county": "Hennepin",
+        "littoralZone": "64",
+        "loc": {
+            "lat": 44.87718395,
+            "lon": -93.42908725
+        },
+        "maxDepth": "45",
+        "name": "Bryant",
+        "nearbyTown": "Eden Prairie",
+        "size": "161",
+        "waterClarity": "5.4"
+    },
+    {
+        "county": "Otter Tail",
+        "littoralZone": "835",
+        "loc": {
+            "lat": 46.4493727,
+            "lon": -95.55612639999998
+        },
+        "maxDepth": "42",
+        "name": "Buchanan",
+        "nearbyTown": "Ottertail",
+        "size": "929",
+        "waterClarity": "11"
+    },
+    {
+        "county": "Beltrami",
+        "littoralZone": "68",
+        "loc": {
+            "lat": 46.931716599999994,
+            "lon": -93.84786854999999
+        },
+        "maxDepth": "40",
+        "name": "Buck",
+        "nearbyTown": "Cass Lake",
+        "size": "271",
+        "waterClarity": "16"
+    },
+    {
+        "county": "Itasca",
+        "littoralZone": "180",
+        "loc": {
+            "lat": 47.56606065,
+            "lon": -93.12374059999999
+        },
+        "maxDepth": "31",
+        "name": "Buck",
+        "nearbyTown": "Nashwauk",
+        "size": "492",
+        "waterClarity": "8"
+    },
+    {
+        "county": "Becker",
+        "littoralZone": "192",
+        "loc": {
+            "lat": 46.970193800000004,
+            "lon": -95.79204969999999
+        },
+        "maxDepth": "38",
+        "name": "Buffalo",
+        "nearbyTown": "Richwood",
+        "size": "376",
+        "waterClarity": "N/A"
+    },
+    {
+        "county": "Murray",
+        "littoralZone": "124",
+        "loc": {
+            "lat": 44.07738665,
+            "lon": -95.57908954999999
+        },
+        "maxDepth": "8.5",
+        "name": "Buffalo",
+        "nearbyTown": "Dovray",
+        "size": "124",
+        "waterClarity": "1.3"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "1478",
+        "loc": {
+            "lat": 46.4418595,
+            "lon": -93.36551459999998
+        },
+        "maxDepth": "126",
+        "name": "Burntside",
+        "nearbyTown": "Tower",
+        "size": "7139",
+        "waterClarity": "20"
+    },
+    {
+        "county": "Hennepin",
+        "littoralZone": "110",
+        "loc": {
+            "lat": 44.83581989999999,
+            "lon": -93.38336505
+        },
+        "maxDepth": "28",
+        "name": "Bush",
+        "nearbyTown": "Bloomington",
+        "size": "172",
+        "waterClarity": "16.8"
+    },
+    {
+        "county": "Dakota",
+        "littoralZone": "976",
+        "loc": {
+            "lat": 44.512136,
+            "lon": -92.8973439
+        },
+        "maxDepth": "50",
+        "name": "Byllesby",
+        "nearbyTown": "Cannon Falls",
+        "size": "1435",
+        "waterClarity": "2.6"
+    },
+    {
+        "county": "St. Louis",
+        "littoralZone": "230",
+        "loc": {
+            "lat": 47.37933184999999,
+            "lon": -91.91090475
+        },
+        "maxDepth": "18",
+        "name": "Cadotte",
+        "nearbyTown": "Fairbanks",
+        "size": "325",
+        "waterClarity": "12"
+    },
+    {
+        "county": "Hennepin",
+        "littoralZone": "123",
+        "loc": {
+            "lat": 44.942105,
+            "lon": -93.3120259
+        },
+        "maxDepth": "82",
+        "name": "Calhoun",
+        "nearbyTown": "Minneapolis",
+        "size": "401",
+        "waterClarity": "15"
+    },
+    {
+        "county": "Kandiyohi",
+        "littoralZone": "618",
+        "loc": {
+            "lat": 45.273269299999995,
+            "lon": -94.83255645
+        },
+        "maxDepth": "13",
+        "name": "Calhoun",
+        "nearbyTown": "Spicer",
+        "size": "618",
+        "waterClarity": "5.7"
+    }
+]
