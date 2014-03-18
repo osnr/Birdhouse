@@ -5,3 +5,9 @@ port apiKey = "API_KEY"
 
 port apiSecret : String
 port apiSecret = "API_SECRET"
+
+port accessToken : String
+port accessToken = "ACCESS_TOKEN"
+
+port accessTokenSecret : String
+port accessTokenSecret = "ACCESS_TOKEN_SECRET"

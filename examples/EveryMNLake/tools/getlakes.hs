@@ -122,7 +122,7 @@ geocode name nearbyTown = do
   let params = [("address", "Lake " ++ name ++ ", " ++ nearbyTown ++ ", Minnesota"),
                 ("sensor", "false")]
   respJson <- simpleHttp ("http://maps.googleapis.com/maps/api/geocode/json?" ++ urlEncodeVars params)
-
+  BL.putStrLn respJson
   threadDelay 500000 -- 0.5s delay to respect Google
 
   let loc = do bounds <- respJson ^? key "results" . nth 0 . key "geometry" . key "bounds" 
@@ -149,4 +149,4 @@ main = do
   lakes <- filter (isJust . loc) <$> mapM toLake wLakes
 
   let json = TE.decodeUtf8 . BL.toStrict $ encode lakes
-  TIO.writeFile "../lakes.json" json
+  TIO.writeFile "../static/lakes.json" json

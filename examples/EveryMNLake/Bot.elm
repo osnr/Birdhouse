@@ -3,7 +3,6 @@ module Bot where
 import Http
 import Json
 import JavaScript.Experimental as JS
-import Regex
 
 import PureRandom
 import Utils as U
