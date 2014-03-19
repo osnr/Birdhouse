@@ -1,14 +1,19 @@
 (function() {
-    var keys = Elm.worker(Elm.Keys);
+    try {
+        var keys = Elm.worker(Elm.Keys);
 
-    var cb = new Codebird;
-    cb.setConsumerKey(keys.ports.apiKey, keys.ports.apiSecret);
-    cb.setToken(keys.ports.accessToken, keys.ports.accessTokenSecret);
+        var cb = new Codebird;
+        cb.setConsumerKey(keys.ports.apiKey, keys.ports.apiSecret);
+        cb.setToken(keys.ports.accessToken, keys.ports.accessTokenSecret);
+    } catch (e) {
+        console.log("Keys failed.", e);
+    }
 
     var bot;
     try {
         bot = Elm.embed(Elm.Bot, document.getElementById("elm-surface"));
     } catch (e) {
+        console.log("Embed failed. Running Bot as worker");
         bot = Elm.worker(Elm.Bot);
     }
 
