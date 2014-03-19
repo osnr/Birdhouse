@@ -1,8 +1,9 @@
 (function() {
+    var cb;
     try {
         var keys = Elm.worker(Elm.Keys);
 
-        var cb = new Codebird;
+        cb = new Codebird;
         cb.setConsumerKey(keys.ports.apiKey, keys.ports.apiSecret);
         cb.setToken(keys.ports.accessToken, keys.ports.accessTokenSecret);
     } catch (e) {
@@ -18,7 +19,7 @@
     }
 
     bot.ports.updates.subscribe(function(update) {
-        if (!update) return;
+        if (!update || !cb) return;
 
         delete update["_"];
 
