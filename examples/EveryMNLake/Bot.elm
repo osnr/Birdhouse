@@ -9,10 +9,6 @@ import Utils as U
 
 import Birdhouse as BH
 
--- port updates : Signal (BH.StatusUpdate a)
-port updates : Signal (Maybe { lat : Float, lon : Float, display_coordinates : Bool, status : String })
-port updates = tweets
-
 lakesJsonSigResp : Signal (Http.Response String)
 lakesJsonSigResp = Http.sendGet . constant <| "lakes.json"
 
@@ -35,8 +31,9 @@ seed = PureRandom.mkGen 1
 pos : Int
 pos = 0
 
-tweets : Signal (Maybe (BH.GeoUpdate (BH.StatusUpdate {})))
-tweets = lakesJsonSigResp
+-- port updates : Signal (Maybe (BH.GeoUpdate (BH.StatusUpdate {})))
+port updates : Signal (Maybe { lat : Float, lon : Float, display_coordinates : Bool, status : String })
+port updates = lakesJsonSigResp
        |> lift U.respToMaybe
        |> lift (U.concatMap Json.fromString)
        |> lift (U.map toLakes)
@@ -45,9 +42,9 @@ tweets = lakesJsonSigResp
        |> U.spool (every <| 10 * second)
 
 previews : Signal Element
-previews = (\tweet -> case tweet of
-                        Just t -> BH.preview t
-                        Nothing -> empty) <~ tweets
+previews = (\update -> case update of
+                         Just t -> BH.preview t
+                         Nothing -> empty) <~ updates
 
 consPreview : Element -> ([Element], Int) -> ([Element], Int)
 consPreview p (ps, n) =

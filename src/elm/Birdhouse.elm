@@ -3,6 +3,7 @@ module Birdhouse where
 import Date
 import Dict
 
+-- things we get from other feeds (currently unused)
 type Id = Int
 type IdStr = String
 
@@ -124,11 +125,8 @@ type PlaceUpdate a = { a |
   place_id : String
 }
 
-tweet : String -> StatusUpdate {}
-tweet text = { status = text }
-
-display : Tweet a -> Element
-display { text } = plainText text
+update : String -> StatusUpdate {}
+update text = { status = text }
 
 preview : StatusUpdate a -> Element
 preview { status } = container 500 60 middle

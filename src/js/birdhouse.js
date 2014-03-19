@@ -5,7 +5,13 @@
     cb.setConsumerKey(keys.ports.apiKey, keys.ports.apiSecret);
     cb.setToken(keys.ports.accessToken, keys.ports.accessTokenSecret);
 
-    var bot = Elm.embed(Elm.Bot, document.getElementById("elm-surface"));
+    var bot;
+    try {
+        bot = Elm.embed(Elm.Bot, document.getElementById("elm-surface"));
+    } catch (e) {
+        bot = Elm.worker(Elm.Bot);
+    }
+
     bot.ports.updates.subscribe(function(update) {
         if (!update) return;
 
