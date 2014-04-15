@@ -7,7 +7,7 @@
         cb.setConsumerKey(keys.ports.apiKey, keys.ports.apiSecret);
         cb.setToken(keys.ports.accessToken, keys.ports.accessTokenSecret);
     } catch (e) {
-        console.log("Keys failed.", e);
+        console.log("Keys failed. Running Bot without Twitter connection", e);
     }
 
     var bot;
