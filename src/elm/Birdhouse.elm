@@ -99,14 +99,17 @@ type PlaceUpdate a = { a |
 update : String -> StatusUpdate {}
 update text = { status = text }
 
-fromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> Signal (Maybe Tweet)
+type IncomingTwitterFeed = Signal (Maybe Tweet)
+type OutgoingTwitterFeed a = Signal (Maybe (StatusUpdate a))
+
+fromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> IncomingTwitterFeed
 fromUser tweets sn =
   let isFrom mSnTweet = case mSnTweet of
                           Just (sn, _) -> True
                           otherwise -> False
   in U.map snd <~ keepIf isFrom Nothing tweets
 
-newFromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> Signal (Maybe Tweet)
+newFromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> IncomingTwitterFeed
 newFromUser tweets sn =
   let sameAsPrev mTweet (_, mTweet') =
         ( case (mTweet, mTweet') of
@@ -118,13 +121,13 @@ newFromUser tweets sn =
 toUpdate : Tweet -> StatusUpdate {}
 toUpdate { text } = update text
 
-toUpdates : Signal (Maybe Tweet) -> Signal (Maybe (StatusUpdate {}))
+toUpdates : IncomingTwitterFeed -> OutgoingTwitterFeed {}
 toUpdates = lift (U.map toUpdate)
 
-filter : (String -> Bool) -> Signal (Maybe (StatusUpdate {})) -> Signal (Maybe (StatusUpdate {}))
+filter : (String -> Bool) -> OutgoingTwitterFeed a -> OutgoingTwitterFeed a
 filter f ss = keepIf (\ms -> maybe False (f . .status) ms) Nothing ss
 
-map : (String -> String) -> Signal (Maybe (StatusUpdate {})) -> Signal (Maybe (StatusUpdate {}))
+map : (String -> String) -> OutgoingTwitterFeed a -> OutgoingTwitterFeed a
 map f ss = U.map (\s -> { s | status <- f s.status }) <~ ss
 
 preview : StatusUpdate a -> Element

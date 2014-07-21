@@ -13,7 +13,7 @@ import Birdhouse as BH
 lakesJsonSigResp : Signal (Http.Response String)
 lakesJsonSigResp = Http.sendGet . constant <| "lakes.json"
 
-type Loc = { lat : Float, long : Float }
+type Loc = { lat : Float, lon : Float }
 type Lake = { name : String, loc : Loc }
 
 toLoc : Json.Value -> Maybe Loc
@@ -21,7 +21,7 @@ toLoc v =
   case v of
     Json.Object d ->
       case (Dict.get "lat" d, Dict.get "lon" d) of
-        (Just (Json.Number lat), Just (Json.Number lon)) -> Just { lat = lat, long = lon }
+        (Just (Json.Number lat), Just (Json.Number lon)) -> Just { lat = lat, lon = lon }
         otherwise -> Nothing
     otherwise -> Nothing
 
@@ -44,7 +44,7 @@ toGeoUpdate : Lake -> BH.GeoUpdate (BH.StatusUpdate {})
 toGeoUpdate { name, loc } = {
   status = "Lake " ++ name,
   lat = loc.lat,
-  lon = loc.lon,
+  long = loc.lon,
   display_coordinates = True }
 
 seed : PureRandom.Gen
@@ -54,14 +54,14 @@ pos : Int
 pos = 0
 
 -- port updates : Signal (Maybe (BH.GeoUpdate (BH.StatusUpdate {})))
-port updates : Signal (Maybe { lat : Float, lon : Float, display_coordinates : Bool, status : String })
+port updates : Signal (Maybe { lat : Float, long : Float, display_coordinates : Bool, status : String })
 port updates = lakesJsonSigResp
-       |> lift U.respToMaybe
-       |> lift (U.concatMap Json.fromString)
-       |> lift (U.map toLakes)
-       |> lift (U.map <| map toGeoUpdate . drop pos . fst . PureRandom.shuffle seed)
-       |> U.extract []
-       |> U.spool (every <| second)
+             |> lift U.respToMaybe
+             |> lift (U.concatMap Json.fromString)
+             |> lift (U.map toLakes)
+             |> lift (U.map <| map toGeoUpdate . drop pos . fst . PureRandom.shuffle seed)
+             |> U.extract []
+             |> U.spool (every <| 3 * hour)
 
 previews : Signal Element
 previews = (\update -> case update of
