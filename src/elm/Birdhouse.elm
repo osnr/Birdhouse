@@ -1,16 +1,20 @@
 module Birdhouse where
 
-import Date
 import Dict
+import Utils as U
 
 import Text
 
--- things we get from other feeds (currently unused)
+-- things we get from other feeds
+type ScreenName = String
+
 type Id = Int
 type IdStr = String
 
-type Tweet a = { a |
-  created_at : Date.Date,
+type Date = String
+
+type Tweet = {
+  created_at : String,
 
   entities : Entities,
 
@@ -31,34 +35,12 @@ type Tweet a = { a |
 }
 
 type Entities = {
-  media : [Media],
   urls : [Url],
   user_mentions : [UserMention],
   hashtags : [Hashtag],
   symbols : [Symbol]
 }
 type Indices = (Int, Int)
-
-type Media = {
-  id : Id,
-  id_str : IdStr,
-
-  media_url : String,
-  media_url_https : String,
-
-  url : String,
-  display_url : String,
-  expanded_url : String,
-
-  sizes : Sizes,
-
-  type_ : String,
-
-  indices : Indices
-}
-type Sizes = {
-  foo : Int
-}
 
 type Url = {
   url : String,
@@ -91,20 +73,7 @@ type Symbol = {
 }
 
 type User = {
-  bar : Int
-}
-
--- extensions of Tweet
-type Reply a = { a |
-  in_reply_to_screen_name : String,
-  in_reply_to_status_id : Id,
-  in_reply_to_status_id_str : IdStr,
-  in_reply_to_user_id : Id,
-  in_reply_to_user_id_str : IdStr
-}
-
-type Retweet a = { a |
-  retweeted_status : Tweet a
+  name : String
 }
 
 -- things we send out
@@ -118,7 +87,7 @@ type ReplyUpdate a = { a |
 
 type GeoUpdate a = { a |
   lat : Float,
-  lon : Float,
+  long : Float,
 
   display_coordinates : Bool
 }
@@ -130,11 +99,50 @@ type PlaceUpdate a = { a |
 update : String -> StatusUpdate {}
 update text = { status = text }
 
+fromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> Signal (Maybe Tweet)
+fromUser tweets sn =
+  let isFrom mSnTweet = case mSnTweet of
+                          Just (sn, _) -> True
+                          otherwise -> False
+  in U.map snd <~ keepIf isFrom Nothing tweets
+
+newFromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> Signal (Maybe Tweet)
+newFromUser tweets sn =
+  let sameAsPrev mTweet (_, mTweet') =
+        ( case (mTweet, mTweet') of
+            (Just t, Just t') -> t.id == t'.id
+            otherwise -> False
+        , mTweet )
+  in lift snd <| dropIf fst (False, Nothing) <| foldp sameAsPrev (False, Nothing) <| fromUser tweets sn
+
+toUpdate : Tweet -> StatusUpdate {}
+toUpdate { text } = update text
+
+toUpdates : Signal (Maybe Tweet) -> Signal (Maybe (StatusUpdate {}))
+toUpdates = lift (U.map toUpdate)
+
+filter : (String -> Bool) -> Signal (Maybe (StatusUpdate {})) -> Signal (Maybe (StatusUpdate {}))
+filter f ss = keepIf (\ms -> maybe False (f . .status) ms) Nothing ss
+
+map : (String -> String) -> Signal (Maybe (StatusUpdate {})) -> Signal (Maybe (StatusUpdate {}))
+map f ss = U.map (\s -> { s | status <- f s.status }) <~ ss
+
 preview : StatusUpdate a -> Element
 preview { status } = container 500 60 middle
           <| color lightGray <| container 500 50 middle <| Text.centered
                <| typeface ["helvetica", "arial", "sans-serif"]
                <| toText status
 
+previewSignal : (a -> Element) -> Signal a -> Signal Element
+previewSignal p s = flow down <~ foldp (::) [] (p <~ s)
+
+previewM : Maybe (StatusUpdate a) -> Element
+previewM sm = case sm of
+                Just s -> preview s
+                Nothing -> empty
+
 previewStream : Signal (StatusUpdate a) -> Signal Element
-previewStream tweets = flow down <~ foldp (::) [] (preview <~ tweets)
+previewStream = previewSignal preview
+
+previewStreamM : Signal (Maybe (StatusUpdate a)) -> Signal Element
+previewStreamM = previewSignal previewM

@@ -15,11 +15,16 @@ concatMap f m = case m of
 map : (a -> b) -> Maybe a -> Maybe b
 map f = concatMap (Just . f)
 
+safeHead : [a] -> Maybe a
+safeHead xs = case xs of
+                x::xs' -> Just x
+                [] -> Nothing
+
 extract : a -> Signal (Maybe a) -> Signal a
 extract default sig = (\(Just x) -> x) <~ dropIf isNothing (Just default) sig
 
 spool : Signal a -> Signal [b] -> Signal (Maybe b)
-spool pace sig = 
+spool pace sig =
   let tick : (a, [b]) -> (Maybe b, [b]) -> (Maybe b, [b])
       tick (_, ys) (_, xs) =
         case xs of

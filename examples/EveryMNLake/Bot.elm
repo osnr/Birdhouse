@@ -13,7 +13,7 @@ import Birdhouse as BH
 lakesJsonSigResp : Signal (Http.Response String)
 lakesJsonSigResp = Http.sendGet . constant <| "lakes.json"
 
-type Loc = { lat : Float, lon : Float }
+type Loc = { lat : Float, long : Float }
 type Lake = { name : String, loc : Loc }
 
 toLoc : Json.Value -> Maybe Loc
@@ -21,7 +21,7 @@ toLoc v =
   case v of
     Json.Object d ->
       case (Dict.get "lat" d, Dict.get "lon" d) of
-        (Just (Json.Number lat), Just (Json.Number lon)) -> Just { lat = lat, lon = lon }
+        (Just (Json.Number lat), Just (Json.Number lon)) -> Just { lat = lat, long = lon }
         otherwise -> Nothing
     otherwise -> Nothing
 
