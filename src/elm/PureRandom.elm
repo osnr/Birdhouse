@@ -48,7 +48,7 @@ shuffleStep (i, x) (m, gen) =
   let (j, gen') = randomInt (0, i) gen
       m' = Dict.insert j x <|
            if j /= i
-             then Dict.insert i ((\(Just y) -> y) <| Dict.lookup j m) m
+             then Dict.insert i ((\(Just y) -> y) <| Dict.get j m) m
              else m
   in (m', gen')
 

@@ -137,4 +137,4 @@ preview { status } = container 500 60 middle
                <| toText status
 
 previewStream : Signal (StatusUpdate a) -> Signal Element
-previewStream tweets = flow up <~ foldp (::) [] (preview <~ tweets)
+previewStream tweets = flow down <~ foldp (::) [] (preview <~ tweets)
