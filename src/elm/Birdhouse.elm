@@ -3,6 +3,8 @@ module Birdhouse where
 import Date
 import Dict
 
+import Text
+
 -- things we get from other feeds (currently unused)
 type Id = Int
 type IdStr = String
@@ -130,8 +132,8 @@ update text = { status = text }
 
 preview : StatusUpdate a -> Element
 preview { status } = container 500 60 middle
-          <| color lightGray <| container 500 50 middle <| text
-               <| typeface "helvetica, arial, sans-serif"
+          <| color lightGray <| container 500 50 middle <| Text.centered
+               <| typeface ["helvetica", "arial", "sans-serif"]
                <| toText status
 
 previewStream : Signal (StatusUpdate a) -> Signal Element
