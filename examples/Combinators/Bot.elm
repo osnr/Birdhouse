@@ -5,7 +5,7 @@ import Maybe
 import Birdhouse as BH
 
 port getTweetsFrom : Signal [BH.ScreenName]
-port getTweetsFrom = (\_ -> ["CounterElm"]) <~ every (10 * second)
+port getTweetsFrom = sampleOn (every (30 * second)) (constant ["CounterElm"])
 
 port tweets : Signal (Maybe (BH.ScreenName, BH.Tweet))
 

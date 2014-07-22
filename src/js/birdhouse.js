@@ -37,14 +37,17 @@
     if (!bot.ports.getTweetsFrom) return;
     bot.ports.getTweetsFrom.subscribe(function(screenNames) {
         for (var i = 0; i < screenNames.length; i++) {
-            cb.__call(
-                "statuses_userTimeline",
-                { screen_name: screenNames[i] },
-                function(reply) {
-                    console.log(reply[0]);
-                    bot.ports.tweets.send([String(screenNames[i]), reply[0]]);
-                }
-            );
+            (function(sn) {
+                cb.__call(
+                    "statuses_userTimeline",
+                    { screen_name: sn },
+                    function(reply) {
+                        console.log(reply, sn, reply[0]);
+
+                        bot.ports.tweets.send([String(sn), reply[0]]);
+                    }
+                );
+            })(screenNames[i]);
         }
     });
 })();

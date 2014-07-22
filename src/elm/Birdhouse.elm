@@ -105,7 +105,7 @@ type OutgoingTwitterFeed a = Signal (Maybe (StatusUpdate a))
 fromUser : Signal (Maybe (ScreenName, Tweet)) -> ScreenName -> IncomingTwitterFeed
 fromUser tweets sn =
   let isFrom mSnTweet = case mSnTweet of
-                          Just (sn, _) -> True
+                          Just (sn', _) -> if sn' == sn then True else False
                           otherwise -> False
   in U.map snd <~ keepIf isFrom Nothing tweets
 
@@ -129,6 +129,9 @@ filter f ss = keepIf (\ms -> maybe False (f . .status) ms) Nothing ss
 
 map : (String -> String) -> OutgoingTwitterFeed a -> OutgoingTwitterFeed a
 map f ss = U.map (\s -> { s | status <- f s.status }) <~ ss
+
+fold : (String -> b -> b) -> b -> OutgoingTwitterFeed a -> Signal b
+fold f z ss = foldp (\(Just s) acc -> f s.status acc) z ss
 
 preview : StatusUpdate a -> Element
 preview { status } = container 500 60 middle
